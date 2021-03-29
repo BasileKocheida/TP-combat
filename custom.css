@@ -1,0 +1,110 @@
+
+body{
+    background-image: url("images/img_bg/bg.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+.card{
+    color: black;
+    width: 60%;
+}
+
+.afficher {
+  text-align: center;
+  margin-left: 30%;
+}
+
+
+.container-title{
+    text-align: center;
+    color: white;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 17px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+@import "compass/css3";
+
+* {   
+  box-sizing: border-box; 
+}
+
+
+
+.container-title{
+
+  position: relative;
+  top: 0;
+  left: 0;
+  
+  width: 30em;
+  height: 17.5em;
+   
+  margin: 7em auto; 
+  padding: 2em;
+
+  
+  background: #BD5761;
+  
+  /* THAR BE DRAGONS */
+  
+  background: linear-gradient(-5deg, #EDBED4 0, #D68595 20%, #BD5761, #D68595);
+  border-radius: 2em;
+  transform: rotate3d(3,-8,-2,30deg);
+  box-shadow: 1em 0.5em 0 #A64B51;
+  
+}
+.container{
+  display: flex;
+}
+
+.rules{
+  color: white;
+  margin-left: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  
+  margin-top: -.75em;
+  margin-left: -1.75em;
+ 
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  line-height: .60;
+  
+  color: #EDBED4;
+  text-transform: uppercase;
+  text-shadow: .1em .025em 0 #631D12;
+  text-align: center;
+  }
+  
+  span {
+    display: block;
+  }
+  
+  .fight {
+    font-size: 0.85em;
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  
+  .club {
+      margin-top: 30px;
+    font-size: 1.15em;
+  }
+
